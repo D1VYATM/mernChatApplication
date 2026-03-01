@@ -3,7 +3,9 @@ import dotenv from "dotenv";
 
 dotenv.config();	
 
+console.log("Loaded URI =", process.env.MONGO_URI);
 
+ 
 
 const connectToMongoDB = async () => {
 	try {
